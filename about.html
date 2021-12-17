@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{ url_for('static', filename = 'img/image2.png') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{params['about_head']}}</h1>
+            <span class="subheading">{{params['about_subhead']}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>We are Creating a local community of skillful people to fullfil the requirement the hourly based jobs locallyAt Amalinge ,
+          it is our goal to help you look and feel like the beautiful woman you are. Amalinge started with a vision to cater to the
+          needs of women who fear lingerie fitting. We believe that bra shopping can be a fun and inspiring experience, and we know
+          that we can make that happen for you. Your bodies are gift and they are perfect the way they are. We want women to have the
+          best lingerie-shopping experience possible, with the best bra, lingerie, shapewear, swimwear and sleepwear selection , and
+          finally with a personal, fun and expert service from our professionally trained fitters who are available for online and
+          in-store fittings.
+
+Amalinge is the online store for Aman Shopping Palace, A renowned premium lingerie boutique in Ludhiana , Punjab. We have been serving our
+          patrons for 30 years in providing the latest fashion in clothing and apparel . Aman Shopping Palace ventured exclusively into lingerie
+          and comfortwear in 2010 and established “ Aman-The Lingerie Boutique” as its Brand Name which resonates for perfect fits, body
+          positivity, and providing finest product and service quality..
+</p>
+        <p>The best part is that we will do the work for you, you just provide us with what you need and the look you want to achieve , we determine the size for you, we will style your Lingerie Wardrobe the way it should be for you to rock all your looks. From Everyday Casuals to a wedding, from a Day at the office to a party,
+          we will help you style yourself so you will personify what you actually feel- Beauty and Confidence.<p>
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
