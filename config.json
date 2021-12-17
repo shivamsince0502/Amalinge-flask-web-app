@@ -1,0 +1,21 @@
+{
+  "params":{
+    "local_url":"mysql://root:@localhost/codethunder",
+    "prod_url": "mysql://root:@localhost/codethunder",
+    "password":"yourpassword",
+    "tw_url":"https://www.instagram.com/amalinge.onlinestore/",
+    "fb_url":"https://www.facebook.com/amanshoppingpalace",
+    "git_url":"https://github.com/codingthunder",
+    "blog_name":"AMALINGE",
+    "tag_line":"High Coverage Bra's from Maiden Beauty- Perfect fit for Indian Wear" ,
+    "local_server":"True" ,
+    "about_head":"About Our Organisation",
+    "about_subhead":"All about us",
+    "contact_head":"Your Feedback",
+    "contacts_subhead":"Please give us your feedback.",
+    "blog_title":"AMALINGE",
+    "blog_subtitle":"AMALINGE",
+    "gmail_username":"futurebillionaire9977@gmail.com",
+    "gmail_password":"share@123"
+  }
+}
